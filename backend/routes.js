@@ -1,13 +1,16 @@
 const { Router } = require('express')
 const jwt = require('jsonwebtoken')
 
+// Middlewares
 const authVerification = require('./middlewares/authVerification.js')
-const loginValidation = require('./middlewares/loginValidation.js')
 
+// Controllers
 const userController = require('./controllers/userController.js')
 const inventoryController = require('./controllers/inventoryController.js')
 const adminController = require('./controllers/adminController.js')
 
+
+// Router
 const router = Router()
 
 // User

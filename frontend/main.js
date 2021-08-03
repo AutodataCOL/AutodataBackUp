@@ -33,10 +33,10 @@ btn.addEventListener('click', () => {
                 errorDiv.style.display = 'none'
                 errorDiv.innerHTML = ''
             }, 3000)
-            return
+        } else {
+            sessionStorage.setItem('token', json.token)
+            location.href = `http://${ip}:5500/frontend/sections/home/home.html`
         }
 
-        sessionStorage.setItem('token', json.token)
-        location.href = `http://${ip}:5500/frontend/sections/home/home.html`
     })
 })

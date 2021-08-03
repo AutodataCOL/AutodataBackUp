@@ -1,0 +1,47 @@
+* {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+#__next {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+#error {
+    width: 80%;
+    max-width: 900px;
+    position: absolute;
+    bottom: 90%;
+    border: 2px solid #BA2121;
+    border-radius: 3px;
+    background-color: #E77777;
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+}
+
+.content {
+    height: 90%;
+    padding: 10px 20px;
+}
+
+.navbar-container {
+    height: 10%;
+}

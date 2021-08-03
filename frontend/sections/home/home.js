@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
-    const ip = '192.168.1.54'
+    const ip = '192.168.1.60'
     const productsContainer = document.getElementById('inventory-products')
 
     fetch(`http://${ip}:3000/home`, {
